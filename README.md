@@ -3,7 +3,7 @@
 A responsive Netflix homepage clone built with HTML & CSS.
 
 ## 🌐 Live Demo
-coming soon
+view live demo :- https://darksyntax1312.github.io/Netflix-clone/
 
 ## 🛠️ Built With
 - HTML5

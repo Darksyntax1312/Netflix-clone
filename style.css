@@ -8,23 +8,19 @@ body {
 }
 
 .S1 {
-    background-image: url("assets/image/Netflix\ homepage\ new.jpg");
+    background-image: url("images/Netflix\ homepage\ new.jpg");
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     height: 100vh;
-    /* height: calc(100vh + 2.5vh); */
     z-index: 1;
     position: relative;
-    /* display: flex;
-    flex-direction: column; */
     padding-bottom: 100px;
 }
 
 .box {
     height: 100vh;
     padding-bottom: 100px;
-    /* height:100%; */
     width: 100%;
     opacity: 0.77;
     background-color: black;
@@ -43,18 +39,14 @@ body {
 .nav {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     justify-content: space-between;
     max-width: 80vw;
     margin: auto;
-    /* gap: 40vw; */
     position: relative;
-    /* top: 2.5vh; */
     padding: 2.5vh 0;
     flex-shrink: 0;
     align-items: center;
     z-index: 10;
-    /* background-color: yellow; */
 }
 
 .netflixlogo img {
@@ -75,12 +67,10 @@ body {
 .btn-eng {
     color: white;
     background-color: transparent;
-    /* padding: 5px 20px; */
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 25px;
-    /* padding:5px 37px; */
     border: 1px solid rgb(122, 119, 119);
     border-radius: 4px;
     font-size: 17px;
@@ -96,19 +86,11 @@ body {
     justify-content: center;
     color: white;
     position: relative;
-    /* position:absolute; */
     z-index: 10;
-    /* height: 100%; */
-    /* width:100%; */
-    /* height: 100vh; */
     text-align: center;
     top: 0;
     left: 0;
     padding-top: 150px;
-    /* flex: 1; */
-    /* height: calc(100vh - 10vh); */
-    /* height:100vh; */
-    /* background-color: green; */
 }
 
 .hero :first-child {
@@ -176,18 +158,14 @@ input {
     color: white;
     font-weight: 600;
     border: 1px solid red;
-    /* margin-top:0.5px; */
 }
 
 .S2 {
     display: flex;
-    /* justify-content: space-around; */
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
     width: 80vw;
     margin: auto;
-    /* gap:100px; */
 }
 
 .texts-aside {
@@ -209,10 +187,11 @@ input {
     position: absolute;
     left: 0;
     right: 300;
-    padding-top: 99px;
-    padding-left: 80px;
+    padding-top: 50px;
+    padding-left: 120px;
 
 }
+
 
 .texts-aside span:first-child {
     font-size: 38px;
@@ -407,8 +386,6 @@ input {
 }
 
 .S7 > div {
-    /* background-color:green; */
-    /* color:red; */
     font-size:40px;
     width:70vw;
     margin:auto;
